@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.box-container {
+  width: 940px;
+  background-color: #eff3f4;
+  height: 1000px;
+  margin: 0 auto;
+}
 /* 回答はここに書いてね */
