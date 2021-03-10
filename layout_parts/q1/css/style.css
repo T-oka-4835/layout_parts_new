@@ -3,8 +3,29 @@
 /* 回答はここに書いてね */
 .box-container {
   width: 940px;
+  height: 470px;
   background-color: #eff3f4;
-  height: 1000px;
   margin: 0 auto;
+}
+
+.outside-box{
+  background-color: #3274ae;
+  float: left;
+  margin: 20px 0 20px 20px;
+}
+
+.middle-box {
+  width: 230px; 
+  margin: 20px;
+  background-color: #022336;
+}
+
+.inside-box {
+  background-color: #eaf4ff;
+  margin: 10px;
+  display: inline-block;
+  padding: 20px;
+  font-size: 16px; 
+  line-height: 16px;
 }
 /* 回答はここに書いてね */
