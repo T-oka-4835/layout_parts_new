@@ -2,4 +2,108 @@
 
 /* 回答はここに書いてね */
 
-/* 回答はここに書いてね */
+/* Q7-3とQ7-5について質問させて頂く */
+
+/* Q7-1 */
+.float {
+  display: block;
+}
+
+.clearfix:after {
+  display: block;
+  content: ""; 
+  clear: both;
+}
+
+.q7__container {
+  width: 225px;
+  font-size: 16px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.q7__container:nth-child(2) {
+  margin-left: 50px;
+}
+/* Q7-1 */
+
+/* Q7-2 */
+.table {
+  display: table;
+}
+
+.table-container {
+  display: table-cell;
+  width: 225px; 
+  vertical-align: middle;
+}
+
+.table-text {
+  font-size: 16px; 
+  display: block;
+}
+
+.table-container:nth-child(2) {
+  padding-left: 50px;
+}
+/* Q7-2 */
+
+/* Q7-3 */
+/* margin-leftを指定するとレイアウトが崩れる */
+
+.inline-block-text {
+  width: 225px; 
+  font-size: 16px; 
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  /* margin-left:50px; */
+}
+
+/* .inline-block-text:first-child{
+  margin-left: 0px;
+} */
+/* Q7-3 */
+
+/* Q7-4 */
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.flex-text {
+  width: 225px;
+  font-size: 16px;
+  padding: 10px; 
+  box-sizing: border-box;
+}
+/* Q7-4 */
+
+/* Q7-5 */
+/* 要素がきれいに横並びにならない */
+.full-container {
+  width: 300px;
+  box-sizing: border-box; 
+  vertical-align: top;
+  display: inline-block;
+}
+
+.flexible-container {
+  width: 100%;
+  margin-left: -200px;
+  padding-left: 350px;
+  box-sizing: border-box; 
+  vertical-align: top;
+  display: inline-block;
+}
+
+.q7-5-full {
+  font-size: 16px;
+}
+
+.q7-5-flexible {
+  font-size: 16px;
+}
+/* Q7-5 */
+/* 回答はここに書いてね */ 
