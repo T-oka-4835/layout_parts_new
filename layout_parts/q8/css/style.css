@@ -1,5 +1,41 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+/* q8-1 */
+.q8-img {
+  margin: 0 auto;
+  position: relative;
+  width: 500px; 
+  overflow:hidden;
+}
 
+.q8-container {
+  position: absolute;
+  bottom: -100%; 
+  left: 0;
+  opacity: 0;
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.8));
+}
+
+.q8-text {
+  margin: 20px;
+  color: white;
+  font-size: 16px; 
+  line-height: 16px;
+  box-sizing: border-box;
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
+.car-picture:hover {
+  transform:scale(1.5,1.5);
+  transition:0.5s all;
+}
+
+.q8-img:hover .q8-container {
+  opacity: 1;
+  transition: 0.5s all;
+  bottom: 0;
+}
+/* q8-1 */
 /* 回答はここに書いてね */
