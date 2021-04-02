@@ -6,7 +6,7 @@
   margin: 0 auto;
   position: relative;
   width: 500px; 
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .q8-container {
@@ -27,7 +27,7 @@
   text-justify: inter-ideograph;
 }
 
-.car-picture:hover {
+.q8-img:hover .car-picture {
   transform:scale(1.5,1.5);
   transition:0.5s all;
 }
