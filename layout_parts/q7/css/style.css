@@ -5,10 +5,6 @@
 /* Q7-3とQ7-5について質問させて頂く */
 
 /* Q7-1 */
-.float {
-  display: block;
-}
-
 .clearfix:after {
   display: block;
   content: ""; 
