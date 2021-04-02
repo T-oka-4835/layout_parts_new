@@ -6,7 +6,7 @@
   table-layout: fixed;
 }
 
-.table-head {
+.q3-table thead tr th, .q3-table tbody tr th  {
   color: white; 
   border: solid #dedede 1px;
   background-color: #2244aa;
@@ -15,18 +15,18 @@
   padding: 10px;
 }
 
-.food-date {
+.q3-table tbody tr td  {
   border: solid #dedede 1px;
   font-size: 16px; 
   line-height: 22px;
   text-align: center;
 }
 
-.tbody-row:nth-child(even) {
+.q3-table tbody tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-.tbody-row:last-child {
+.q3-table tbody tr:last-child {
   border-top: dashed #000 2px;
 }
 /* 回答はここに書いてね */
