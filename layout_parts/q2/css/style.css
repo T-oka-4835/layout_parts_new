@@ -3,18 +3,17 @@
 /* 回答はここに書いてね */
 .box-container {
   width: 900px;
-  height: 100%;
   margin: 0 auto;
   padding: 20px;
   background-color: #eff3f4;
 }
 
-.top-practice-picture {
+.left-practice-picture {
   margin: 0 20px 10px 0;
   float: left;
 }
 
-.bottom-practice-picture {
+.right-practice-picture {
   margin: 0 0 10px 20px;
   float: right;
 }
@@ -24,5 +23,4 @@
   line-height: 22px;
   word-break: break-all;
 }
-
 /* 回答はここに書いてね */

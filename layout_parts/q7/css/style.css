@@ -57,12 +57,12 @@
   display: inline-block;
   vertical-align: middle;
   box-sizing: border-box;
-  /* margin-left:50px; */
+  /* margin-left: 50px; */
 }
 
-/* .inline-block-text:first-child{
+.inline-block-text:first-child{
   margin-left: 0px;
-} */
+}
 /* Q7-3 */
 
 /* Q7-4 */
@@ -106,4 +106,4 @@
   font-size: 16px;
 }
 /* Q7-5 */
-/* 回答はここに書いてね */ 
+/* 回答はここに書いてね */  

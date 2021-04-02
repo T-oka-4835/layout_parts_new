@@ -1,29 +1,35 @@
 @charset "UTF-8";
 
+.clearfix:after {
+  content: ""; 
+  display: block; 
+  clear: both;
+}
+
 /* 回答はここに書いてね */
 .box-container {
-  width: 940px;
-  height: 470px;
+  width: 900px;
+  padding: 20px; 
   background-color: #eff3f4;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .outside-box{
   background-color: #3274ae;
   float: left;
-  margin: 20px 0 20px 20px;
+  width: 230px;
+  margin-left: 20px;
+  padding: 20px;
 }
 
-.middle-box {
-  width: 230px; 
-  margin: 20px;
-  background-color: #022336;
+.outside-box:first-child {
+  margin-left: 0;
 }
 
-.inside-box {
+.inside-text {
   background-color: #eaf4ff;
-  margin: 10px;
-  display: inline-block;
+  border: 10px solid #022336;
   padding: 20px;
   font-size: 16px; 
   line-height: 16px;
