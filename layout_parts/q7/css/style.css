@@ -2,8 +2,6 @@
 
 /* 回答はここに書いてね */
 
-/* Q7-3とQ7-5について質問させて頂く */
-
 /* Q7-1 */
 .clearfix:after {
   display: block;
@@ -45,7 +43,9 @@
 /* Q7-2 */
 
 /* Q7-3 */
-/* margin-leftを指定するとレイアウトが崩れる */
+.inline-block-container {
+  font-size: 0;
+}
 
 .inline-block-text {
   width: 225px; 
@@ -53,7 +53,7 @@
   display: inline-block;
   vertical-align: middle;
   box-sizing: border-box;
-  /* margin-left: 50px; */
+  margin-left: 50px;
 }
 
 .inline-block-text:first-child{
@@ -77,28 +77,26 @@
 /* Q7-4 */
 
 /* Q7-5 */
-/* 要素がきれいに横並びにならない */
+.erase-font {
+  font-size: 0;
+}
+
 .full-container {
   width: 300px;
-  box-sizing: border-box; 
   vertical-align: top;
   display: inline-block;
 }
 
 .flexible-container {
   width: 100%;
-  margin-left: -200px;
-  padding-left: 350px;
   box-sizing: border-box; 
-  vertical-align: top;
+  vertical-align: top; 
   display: inline-block;
+  margin-left: -300px;
+  padding-left: 350px;
 }
 
-.q7-5-full {
-  font-size: 16px;
-}
-
-.q7-5-flexible {
+.q7-5-font {
   font-size: 16px;
 }
 /* Q7-5 */
