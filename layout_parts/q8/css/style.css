@@ -25,16 +25,19 @@
   box-sizing: border-box;
   text-align: justify;
   text-justify: inter-ideograph;
+  word-break: break-all;
+}
+
+.car-picture, .q8-container {
+  transition: 0.5s all;
 }
 
 .q8-img:hover .car-picture {
   transform:scale(1.5,1.5);
-  transition:0.5s all;
 }
 
 .q8-img:hover .q8-container {
   opacity: 1;
-  transition: 0.5s all;
   bottom: 0;
 }
 /* q8-1 */
